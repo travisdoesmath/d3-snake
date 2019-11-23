@@ -1,0 +1,27 @@
+.pixel {
+    fill: #DDD;
+}
+
+.snake {
+    fill: black;
+}
+
+.food {
+    fill: #800;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin: 0.1em 0;
+}
+
+.column {
+    max-width: 960px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+}
