@@ -19,9 +19,9 @@ function setFood() {
 
 food = setFood();
 
-body = d3.select("#body")
+svg = d3.select("svg")
 
-svg = body.append("svg")
+svg
     .attr("width", pixelWidth * pixelsX)
     .attr("height", pixelWidth * pixelsY)
 
